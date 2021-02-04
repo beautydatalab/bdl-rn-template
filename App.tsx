@@ -25,6 +25,8 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
+declare const global: {HermesInternal: null | Record<string, unknown>};
+
 const App = () => {
   return (
     <>
