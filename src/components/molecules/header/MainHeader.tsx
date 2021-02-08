@@ -12,7 +12,7 @@ interface Props {
 
 const Image = styled.ImageBackground`
   height: 200px;
-  width: ${Dimensions.get('window').width};
+  width: ${Dimensions.get('window').width}px;
 `;
 
 const Title = styled(BigTitle)`

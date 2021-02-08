@@ -9,7 +9,7 @@ interface Props {
 }
 
 const Content = styled.Text`
-  font-size: ${sizes.large};
+  font-size: ${sizes.large}px;
   color: ${colors.content};
   font-weight: 400;
 `;

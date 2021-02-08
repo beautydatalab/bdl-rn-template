@@ -17,7 +17,7 @@ export interface Section {
 const Container = styled.View``;
 
 const Section = styled(ContentSection)`
-  margin-bottom: ${margins.huge};
+  margin-bottom: ${margins.huge}px;
 `;
 
 const ContentSections = ({style, sections}: Props) => (
