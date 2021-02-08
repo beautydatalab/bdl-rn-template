@@ -9,18 +9,22 @@
  */
 
 import {NavigationContainer} from '@react-navigation/native';
+import {Provider} from 'mobx-react';
 import React, {Component} from 'react';
 import {StatusBar} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
 import MainBottomTabNavigator from 'src/navigators/MainBottomTabNavigator';
+import {getRootStore} from 'src/stores/RootStore';
 
 export default class App extends Component {
   public render() {
     return (
-      <NavigationContainer>
-        <StatusBar barStyle="dark-content" />
-        <MainBottomTabNavigator />
-      </NavigationContainer>
+      <Provider store={getRootStore}>
+        <NavigationContainer>
+          <StatusBar barStyle="dark-content" />
+          <MainBottomTabNavigator />
+        </NavigationContainer>
+      </Provider>
     );
   }
 
