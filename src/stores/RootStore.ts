@@ -1,4 +1,5 @@
 import {Instance, types} from 'mobx-state-tree';
+import Reactotron from 'reactotron-react-native';
 import TodoStore from 'src/stores/TodoStore';
 
 const RootStore = types.model({
@@ -12,6 +13,9 @@ let store: IRootStore | null = null;
 const getRootStore = (): IRootStore => {
   if (store === null) {
     store = RootStore.create({});
+    if (__DEV__) {
+      Reactotron.trackMstNode(store);
+    }
   }
   return store;
 };
