@@ -14,7 +14,7 @@ const getRootStore = (): IRootStore => {
   if (store === null) {
     store = RootStore.create({});
     if (__DEV__) {
-      Reactotron.trackMstNode(store);
+      Reactotron.trackMstNode!(store);
     }
   }
   return store;
