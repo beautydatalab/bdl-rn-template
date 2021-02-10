@@ -1,8 +1,8 @@
 import {Instance, types} from 'mobx-state-tree';
 import Reactotron from 'reactotron-react-native';
-import TodoStore from 'src/stores/TodoStore';
+import {TodoStore} from 'src/stores/TodoStore';
 
-const RootStore = types.model({
+export const RootStore = types.model({
   todoStore: types.optional(TodoStore, {}),
 });
 
@@ -21,5 +21,3 @@ const getRootStore = (): IRootStore => {
 };
 
 export {getRootStore};
-
-export default RootStore;

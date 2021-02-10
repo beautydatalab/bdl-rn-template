@@ -14,8 +14,6 @@ const Title = styled.Text`
   font-weight: 600;
 `;
 
-const SectionTitle = ({children, style}: Props) => (
+export const SectionTitle = ({children, style}: Props) => (
   <Title style={style}>{children}</Title>
 );
-
-export default SectionTitle;

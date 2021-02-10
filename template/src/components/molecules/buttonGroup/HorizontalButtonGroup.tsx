@@ -19,10 +19,10 @@ const Container = styled.View`
 `;
 
 const StyledButton = styled(Button)`
-  margin-right: ${margins.medium};
+  margin-right: ${margins.medium}px;
 `;
 
-const HorizontalButtons = ({buttons, style}: Props) => (
+export const HorizontalButtons = ({buttons, style}: Props) => (
   <Container style={style}>
     {buttons.map((button) => (
       <StyledButton
@@ -33,5 +33,3 @@ const HorizontalButtons = ({buttons, style}: Props) => (
     ))}
   </Container>
 );
-
-export default HorizontalButtons;

@@ -14,8 +14,6 @@ const Content = styled.Text`
   font-weight: 400;
 `;
 
-const SectionContent = ({children, style}: Props) => (
+export const SectionContent = ({children, style}: Props) => (
   <Content style={style}>{children}</Content>
 );
-
-export default SectionContent;

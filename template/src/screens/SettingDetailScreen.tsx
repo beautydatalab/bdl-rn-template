@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Button} from 'src/components/molecules/buttonGroup/HorizontalButtonGroup';
-import SettingScreenTemplate from 'src/components/templates/SettingScreenTemplate';
+import {SettingScreenTemplate} from 'src/components/templates/SettingScreenTemplate';
 import {SettingScreenProps} from 'src/navigators/types';
 
 type Props = {

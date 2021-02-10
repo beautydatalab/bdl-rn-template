@@ -1,6 +1,7 @@
 import React from 'react';
-import MainHeader from 'src/components/molecules/header/MainHeader';
-import ContentSections, {
+import {MainHeader} from 'src/components/molecules/header/MainHeader';
+import {
+  ContentSections,
   Section,
 } from 'src/components/organisms/ContentSections';
 import {margins} from 'src/styles/space';
@@ -19,11 +20,9 @@ const Header = styled(MainHeader)`
 
 const Sections = styled(ContentSections)``;
 
-const DescriptionSectionsTemplate = ({title, sections}: Props) => (
+export const DescriptionSectionsTemplate = ({title, sections}: Props) => (
   <Container>
     <Header title={title} />
     <Sections sections={sections} />
   </Container>
 );
-
-export default DescriptionSectionsTemplate;

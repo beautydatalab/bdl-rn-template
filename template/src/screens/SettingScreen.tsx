@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Button} from 'src/components/molecules/buttonGroup/HorizontalButtonGroup';
-import SettingScreenTemplate from 'src/components/templates/SettingScreenTemplate';
+import {SettingScreenTemplate} from 'src/components/templates/SettingScreenTemplate';
 import {SettingScreenProps} from 'src/navigators/types';
 
 type Props = {
@@ -11,7 +11,7 @@ interface State {
   buttons: Button[];
 }
 
-class SettingScreen extends Component<Props, State> {
+export class SettingScreen extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
@@ -38,5 +38,3 @@ class SettingScreen extends Component<Props, State> {
     });
   };
 }
-
-export default SettingScreen;

@@ -1,8 +1,9 @@
 import React from 'react';
-import HorizontalButtons, {
+import {
   Button,
+  HorizontalButtons,
 } from 'src/components/molecules/buttonGroup/HorizontalButtonGroup';
-import MainHeader from 'src/components/molecules/header/MainHeader';
+import {MainHeader} from 'src/components/molecules/header/MainHeader';
 import {paddings} from 'src/styles/space';
 import styled from 'styled-components/native';
 
@@ -22,11 +23,9 @@ const Buttons = styled(HorizontalButtons)`
   padding-vertical: ${paddings.large};
 `;
 
-const DescriptionSectionsTemplate = ({title, buttons}: Props) => (
+export const SettingScreenTemplate = ({title, buttons}: Props) => (
   <Container>
     <Header title={title} />
     <Buttons buttons={buttons} />
   </Container>
 );
-
-export default DescriptionSectionsTemplate;

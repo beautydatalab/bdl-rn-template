@@ -1,4 +1,4 @@
-const colors = {
+export const colors = {
   black0: '#000000',
   black: '#212121',
   black10: '#190000',
@@ -56,5 +56,3 @@ const colors = {
 };
 
 export const themeColor = colors.green500;
-
-export default colors;

@@ -1,8 +1,8 @@
 import React from 'react';
 import {Dimensions, StyleProp, ViewStyle} from 'react-native';
-import BigTitle from 'src/components/atoms/text/BigTitle';
-import images from 'src/images';
-import colors from 'src/styles/colors';
+import {BigTitle} from 'src/components/atoms/text/BigTitle';
+import {images} from 'src/images';
+import {colors} from 'src/styles/colors';
 import styled from 'styled-components/native';
 
 interface Props {
@@ -20,10 +20,8 @@ const Title = styled(BigTitle)`
   color: ${colors.white};
 `;
 
-const MainHeader = ({style, title}: Props) => (
+export const MainHeader = ({style, title}: Props) => (
   <Image style={style} source={images.header}>
     <Title>{title}</Title>
   </Image>
 );
-
-export default MainHeader;

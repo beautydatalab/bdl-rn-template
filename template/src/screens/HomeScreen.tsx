@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Section} from 'src/components/organisms/ContentSections';
-import DescriptionSectionsTemplate from 'src/components/templates/DescriptionSectionsTemplate';
+import {DescriptionSectionsTemplate} from 'src/components/templates/DescriptionSectionsTemplate';
 
 type Props = Record<string, never>;
 
@@ -8,7 +8,7 @@ interface State {
   sections: Section[];
 }
 
-class HomeScreen extends Component<Props, State> {
+export class HomeScreen extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
@@ -51,5 +51,3 @@ class HomeScreen extends Component<Props, State> {
     });
   };
 }
-
-export default HomeScreen;

@@ -14,8 +14,6 @@ const Title = styled.Text`
   font-weight: 600;
 `;
 
-const BigTitle = ({children, style}: Props) => (
+export const BigTitle = ({children, style}: Props) => (
   <Title style={style}>{children}</Title>
 );
-
-export default BigTitle;

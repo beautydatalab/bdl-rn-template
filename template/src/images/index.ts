@@ -1,3 +1,3 @@
-export default {
+export const images = {
   header: require('./header-image.jpeg'),
 };

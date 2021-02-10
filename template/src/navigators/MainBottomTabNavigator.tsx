@@ -1,15 +1,13 @@
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import React from 'react';
-import SettingStackNavigator from 'src/navigators/SettingStackNavigator';
-import HomeScreen from 'src/screens/HomeScreen';
+import {SettingStackNavigator} from 'src/navigators/SettingStackNavigator';
+import {HomeScreen} from 'src/screens/HomeScreen';
 
 const Tab = createBottomTabNavigator();
 
-const MainBottomTabNavigator = () => (
+export const MainBottomTabNavigator = () => (
   <Tab.Navigator>
     <Tab.Screen name={'Home'} component={HomeScreen} />
     <Tab.Screen name={'Setting'} component={SettingStackNavigator} />
   </Tab.Navigator>
 );
-
-export default MainBottomTabNavigator;

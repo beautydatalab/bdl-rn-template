@@ -1,4 +1,4 @@
-import globalColors, {themeColor} from 'src/styles/colors';
+import {colors as globalColors, themeColor} from 'src/styles/colors';
 
 export const sizes = {
   tiny: 10,
