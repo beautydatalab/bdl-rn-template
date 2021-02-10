@@ -21,7 +21,7 @@ const Button = styled.Button`
   margin-right: ${margins.medium};
 `;
 
-const TwoButtons = ({buttons, style}: Props) => (
+const HorizontalButtons = ({buttons, style}: Props) => (
   <Container style={style}>
     {buttons.map((button) => (
       <Button
@@ -33,4 +33,4 @@ const TwoButtons = ({buttons, style}: Props) => (
   </Container>
 );
 
-export default TwoButtons;
+export default HorizontalButtons;
