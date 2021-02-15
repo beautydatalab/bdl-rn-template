@@ -1,7 +1,7 @@
 import React from 'react';
 import {StyleProp, ViewStyle} from 'react-native';
-import {SectionContent} from 'src/components//atoms/text/SectionContent';
-import {SectionTitle} from 'src/components//atoms/text/SectionTitle';
+import {SectionContent} from 'src/components/atoms/text/SectionContent';
+import {SectionTitle} from 'src/components/atoms/text/SectionTitle';
 import {margins} from 'src/styles/space';
 import styled from 'styled-components/native';
 

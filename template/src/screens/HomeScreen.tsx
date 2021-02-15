@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Section} from 'src/components/organisms/ContentSections';
+import {Section} from 'src/components/organisms/sections/ContentSections';
 import {DescriptionSectionsTemplate} from 'src/components/templates/DescriptionSectionsTemplate';
 
 type Props = Record<string, never>;
