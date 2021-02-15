@@ -5,7 +5,7 @@ import {
 } from 'src/components/molecules/buttonGroup/HorizontalButtonGroup';
 import {MainHeader} from 'src/components/molecules/header/MainHeader';
 import {colors} from 'src/styles/colors';
-import {margins, paddings} from 'src/styles/space';
+import {paddings} from 'src/styles/space';
 import styled from 'styled-components/native';
 
 interface Props {
