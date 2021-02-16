@@ -6,9 +6,6 @@ import styled from 'styled-components/native';
 import {colors} from 'src/styles/colors';
 import {margins} from 'src/styles/space';
 
-import {BigTitle} from './BigTitle';
-import {SectionContent} from './SectionContent';
-import {SectionTitle} from './SectionTitle';
 import {Text} from './Text';
 
 const CenterView = styled.View`
@@ -23,9 +20,6 @@ const EmptyHeightView = styled.View`
 
 storiesOf('text', module)
   .addDecorator((getStory) => <CenterView>{getStory()}</CenterView>)
-  .add('BigTitle', () => <BigTitle>BigTitle</BigTitle>)
-  .add('SectionContent', () => <SectionContent>SectionContent</SectionContent>)
-  .add('SectionTitle', () => <SectionTitle>SectionTitle</SectionTitle>)
   .add('Text', () => (
     <>
       <Text h1>Heading 1</Text>
