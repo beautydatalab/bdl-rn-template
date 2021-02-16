@@ -3,9 +3,13 @@ import React from 'react';
 import {storiesOf} from '@storybook/react-native';
 import styled from 'styled-components/native';
 
+import {colors} from 'src/styles/colors';
+import {margins} from 'src/styles/space';
+
 import {BigTitle} from './BigTitle';
 import {SectionContent} from './SectionContent';
 import {SectionTitle} from './SectionTitle';
+import {Text} from './Text';
 
 const CenterView = styled.View`
   flex: 1;
@@ -13,8 +17,27 @@ const CenterView = styled.View`
   justify-content: center;
 `;
 
+const EmptyHeightView = styled.View`
+  height: ${margins.medium}px;
+`;
+
 storiesOf('text', module)
   .addDecorator((getStory) => <CenterView>{getStory()}</CenterView>)
   .add('BigTitle', () => <BigTitle>BigTitle</BigTitle>)
   .add('SectionContent', () => <SectionContent>SectionContent</SectionContent>)
-  .add('SectionTitle', () => <SectionTitle>SectionTitle</SectionTitle>);
+  .add('SectionTitle', () => <SectionTitle>SectionTitle</SectionTitle>)
+  .add('Text', () => (
+    <>
+      <Text h1>Heading 1</Text>
+      <Text h2>Heading 2</Text>
+      <Text h3>Heading 3</Text>
+      <Text h4>Heading 4</Text>
+      <EmptyHeightView />
+      <Text h3 color={colors.yellow600}>
+        <Text h2 color={colors.red500}>
+          This is{' '}
+        </Text>
+        color text
+      </Text>
+    </>
+  ));
