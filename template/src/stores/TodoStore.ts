@@ -1,4 +1,5 @@
 import {Instance, types} from 'mobx-state-tree';
+
 import {Todo} from 'src/stores/models/Todo';
 
 export const TodoStore = types.model({

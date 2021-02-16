@@ -36,7 +36,7 @@ module.exports = {
           },
           {
             pattern: 'src/**/*',
-            group: 'internal',
+            group: 'external',
             position: 'after',
           },
         ],

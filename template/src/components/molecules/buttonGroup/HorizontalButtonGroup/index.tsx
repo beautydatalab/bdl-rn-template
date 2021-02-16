@@ -1,8 +1,11 @@
 import React from 'react';
+
 import {StyleProp, ViewStyle} from 'react-native';
+
+import styled from 'styled-components/native';
+
 import {Button} from 'src/components/atoms/button/Button';
 import {margins} from 'src/styles/space';
-import styled from 'styled-components/native';
 
 interface Props {
   style?: StyleProp<ViewStyle>;

@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+
 import {MainHeader} from 'src/components/molecules/header/MainHeader';
 import {
   ContentSections,

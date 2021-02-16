@@ -1,5 +1,7 @@
-import {createStackNavigator} from '@react-navigation/stack';
 import React from 'react';
+
+import {createStackNavigator} from '@react-navigation/stack';
+
 import SettingDetailScreen from 'src/screens/SettingDetailScreen';
 import {SettingScreen} from 'src/screens/SettingScreen';
 

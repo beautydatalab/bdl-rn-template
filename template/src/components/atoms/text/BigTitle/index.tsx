@@ -1,7 +1,10 @@
 import React from 'react';
+
 import {StyleProp, TextStyle} from 'react-native';
-import {colors, sizes} from 'src/styles/fonts';
+
 import styled from 'styled-components/native';
+
+import {colors, sizes} from 'src/styles/fonts';
 
 interface Props {
   style?: StyleProp<TextStyle>;

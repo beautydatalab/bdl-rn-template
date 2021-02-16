@@ -1,5 +1,7 @@
 import React from 'react';
+
 import renderer from 'react-test-renderer';
+
 import {SectionContent} from 'src/components/atoms/text/SectionContent';
 
 test('render correctly', () => {

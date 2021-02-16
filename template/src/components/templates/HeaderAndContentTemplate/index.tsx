@@ -1,4 +1,7 @@
 import React from 'react';
+
+import styled from 'styled-components/native';
+
 import {
   Button,
   HorizontalButtons,
@@ -6,7 +9,6 @@ import {
 import {MainHeader} from 'src/components/molecules/header/MainHeader';
 import {colors} from 'src/styles/colors';
 import {paddings} from 'src/styles/space';
-import styled from 'styled-components/native';
 
 interface Props {
   title: string;

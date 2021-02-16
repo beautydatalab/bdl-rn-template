@@ -1,5 +1,7 @@
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import React from 'react';
+
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+
 import {SettingStackNavigator} from 'src/navigators/SettingStackNavigator';
 import {HomeScreen} from 'src/screens/HomeScreen';
 
