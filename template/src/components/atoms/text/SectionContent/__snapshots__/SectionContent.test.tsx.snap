@@ -6,7 +6,7 @@ exports[`render correctly 1`] = `
     Array [
       Object {
         "color": "#555555",
-        "fontSize": 16,
+        "fontSize": 20,
         "fontWeight": "400",
       },
     ]
