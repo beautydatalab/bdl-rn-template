@@ -1,12 +1,13 @@
 import {colors as globalColors, themeColor} from 'src/styles/colors';
 
 export const sizes = {
-  tiny: 10,
-  small: 12,
-  medium: 14,
-  large: 16,
+  tiny: 12,
+  small: 14,
+  medium: 16,
+  large: 20,
   extraLarge: 24,
-  huge: 40,
+  huge: 32,
+  extraHuge: 40,
 };
 
 export const colors = {
