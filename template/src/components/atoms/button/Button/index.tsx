@@ -1,21 +1,21 @@
 import React from 'react';
+
 import {StyleProp, TextStyle} from 'react-native';
-import {colors, sizes} from 'src/styles/fonts';
+
 import styled from 'styled-components/native';
+
+import {colors, sizes} from 'src/styles/fonts';
 
 interface Props {
   style?: StyleProp<TextStyle>;
-  children?: React.ReactNode;
+  title: string;
+  onPress: () => void;
 }
 
-const Content = styled.Text`
+const StyledButton = styled.Button`
   font-size: ${sizes.large}px;
   color: ${colors.content};
   font-weight: 400;
 `;
 
-const SectionContent = ({children, style}: Props) => (
-  <Content style={style}>{children}</Content>
-);
-
-export default SectionContent;
+export const Button = (props: Props) => <StyledButton {...props} />;

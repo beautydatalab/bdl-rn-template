@@ -8,12 +8,15 @@
  * @format
  */
 
+import React, {Component} from 'react';
+
+import {StatusBar} from 'react-native';
+
 import {NavigationContainer} from '@react-navigation/native';
 import {Provider} from 'mobx-react';
-import React, {Component} from 'react';
-import {StatusBar} from 'react-native';
 import SplashScreen from 'react-native-splash-screen';
-import MainBottomTabNavigator from 'src/navigators/MainBottomTabNavigator';
+
+import {MainBottomTabNavigator} from 'src/navigators/MainBottomTabNavigator';
 import {getRootStore} from 'src/stores/RootStore';
 
 export default class App extends Component {

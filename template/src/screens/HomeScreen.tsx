@@ -1,6 +1,15 @@
 import React, {Component} from 'react';
-import {Section} from 'src/components/organisms/ContentSections';
-import DescriptionSectionsTemplate from 'src/components/templates/DescriptionSectionsTemplate';
+
+import {MainHeader} from 'src/components/molecules/header/MainHeader';
+import {
+  ContentSections,
+  Section,
+} from 'src/components/organisms/sections/ContentSections';
+import {
+  Container,
+  ContentSection,
+  HeaderSection,
+} from 'src/components/templates/HeaderAndContentTemplate';
 
 type Props = Record<string, never>;
 
@@ -8,7 +17,7 @@ interface State {
   sections: Section[];
 }
 
-class HomeScreen extends Component<Props, State> {
+export class HomeScreen extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 
@@ -17,10 +26,14 @@ class HomeScreen extends Component<Props, State> {
   render() {
     const {sections} = this.state;
     return (
-      <DescriptionSectionsTemplate
-        title="Welcome to Home"
-        sections={sections}
-      />
+      <Container>
+        <HeaderSection>
+          <MainHeader title="Welcome to Home" />
+        </HeaderSection>
+        <ContentSection>
+          <ContentSections sections={sections} />
+        </ContentSection>
+      </Container>
     );
   }
 
@@ -51,5 +64,3 @@ class HomeScreen extends Component<Props, State> {
     });
   };
 }
-
-export default HomeScreen;

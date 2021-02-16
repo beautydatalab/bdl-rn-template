@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<Text
+  style={
+    Array [
+      Object {
+        "color": "#212121",
+        "fontSize": 40,
+        "fontWeight": "600",
+      },
+    ]
+  }
+>
+  BigTitle
+</Text>
+`;

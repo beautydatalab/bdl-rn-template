@@ -20,7 +20,8 @@ BDL team recommend the Atomic Design Pattern, so this project contain simple ato
 
 and
 
-`cd ./[project name]/ios && pod install`
+`cd ./[project name] && npm install`
+`cd ./ios && pod install`
 
 # React Native version
 

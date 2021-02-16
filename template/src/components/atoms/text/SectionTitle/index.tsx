@@ -1,7 +1,10 @@
 import React from 'react';
+
 import {StyleProp, TextStyle} from 'react-native';
-import {colors, sizes} from 'src/styles/fonts';
+
 import styled from 'styled-components/native';
+
+import {colors, sizes} from 'src/styles/fonts';
 
 interface Props {
   style?: StyleProp<TextStyle>;
@@ -14,8 +17,6 @@ const Title = styled.Text`
   font-weight: 600;
 `;
 
-const SectionTitle = ({children, style}: Props) => (
+export const SectionTitle = ({children, style}: Props) => (
   <Title style={style}>{children}</Title>
 );
-
-export default SectionTitle;

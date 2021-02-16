@@ -1,9 +1,12 @@
 import React from 'react';
+
 import {StyleProp, ViewStyle} from 'react-native';
-import SectionContent from 'src/components//atoms/text/SectionContent';
-import SectionTitle from 'src/components//atoms/text/SectionTitle';
-import {margins} from 'src/styles/space';
+
 import styled from 'styled-components/native';
+
+import {SectionContent} from 'src/components/atoms/text/SectionContent';
+import {SectionTitle} from 'src/components/atoms/text/SectionTitle';
+import {margins} from 'src/styles/space';
 
 interface Props {
   style?: StyleProp<ViewStyle>;
@@ -19,11 +22,9 @@ const Title = styled(SectionTitle)`
 
 const Content = styled(SectionContent)``;
 
-const ContentSection = ({style, title, content}: Props) => (
+export const ContentSection = ({style, title, content}: Props) => (
   <Container style={style}>
     <Title>{title}</Title>
     <Content>{content}</Content>
   </Container>
 );
-
-export default ContentSection;

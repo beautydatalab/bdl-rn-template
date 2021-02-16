@@ -1,7 +1,11 @@
 import React from 'react';
+
 import {StyleProp, ViewStyle} from 'react-native';
-import {margins} from 'src/styles/space';
+
 import styled from 'styled-components/native';
+
+import {Button} from 'src/components/atoms/button/Button';
+import {margins} from 'src/styles/space';
 
 interface Props {
   style?: StyleProp<ViewStyle>;
@@ -17,14 +21,14 @@ const Container = styled.View`
   flex-direction: row;
 `;
 
-const Button = styled.Button`
-  margin-right: ${margins.medium};
+const StyledButton = styled(Button)`
+  margin-right: ${margins.medium}px;
 `;
 
-const HorizontalButtons = ({buttons, style}: Props) => (
+export const HorizontalButtons = ({buttons, style}: Props) => (
   <Container style={style}>
     {buttons.map((button) => (
-      <Button
+      <StyledButton
         key={button.title}
         title={button.title}
         onPress={button.onPress}
@@ -32,5 +36,3 @@ const HorizontalButtons = ({buttons, style}: Props) => (
     ))}
   </Container>
 );
-
-export default HorizontalButtons;
