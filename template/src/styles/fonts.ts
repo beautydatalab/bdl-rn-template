@@ -1,4 +1,4 @@
-import {colors as globalColors, themeColor} from 'src/styles/colors';
+import {palette, themeColor} from 'src/styles/colors';
 
 export const sizes = {
   tiny: 12,
@@ -11,8 +11,8 @@ export const sizes = {
 };
 
 export const colors = {
-  default: globalColors.black,
-  disable: globalColors.gray500,
-  content: globalColors.gray700,
+  default: palette.black,
+  disable: palette.gray500,
+  content: palette.gray700,
   theme: themeColor,
 };

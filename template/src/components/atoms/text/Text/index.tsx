@@ -4,7 +4,7 @@ import {TextProps} from 'react-native';
 
 import styled from 'styled-components/native';
 
-import {colors} from 'src/styles/colors';
+import {palette} from 'src/styles/colors';
 import {sizes} from 'src/styles/fonts';
 
 interface Props extends TextProps {
@@ -17,7 +17,7 @@ interface Props extends TextProps {
 }
 
 const TextElement = styled.Text`
-  color: ${colors.black};
+  color: ${palette.black};
 `;
 
 export const Text = ({
@@ -25,7 +25,7 @@ export const Text = ({
   h2,
   h3,
   h4,
-  color = colors.black,
+  color = palette.black,
   style,
   children,
   ...restProps

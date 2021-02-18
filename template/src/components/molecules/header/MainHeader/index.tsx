@@ -6,7 +6,7 @@ import styled from 'styled-components/native';
 
 import {Text} from 'src/components/atoms/text/Text';
 import {images} from 'src/images';
-import {colors} from 'src/styles/colors';
+import {palette} from 'src/styles/colors';
 
 interface Props {
   style?: StyleProp<ViewStyle>;
@@ -20,12 +20,12 @@ const Image = styled.ImageBackground`
 
 const Title = styled(Text)`
   margin-top: 150px;
-  color: ${colors.white};
+  color: ${palette.white};
 `;
 
 export const MainHeader = ({style, title}: Props) => (
   <Image style={style} source={images.header}>
-    <Title h1 color={colors.white}>
+    <Title h1 color={palette.white}>
       {title}
     </Title>
   </Image>

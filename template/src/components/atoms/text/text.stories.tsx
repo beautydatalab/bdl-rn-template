@@ -3,7 +3,7 @@ import React from 'react';
 import {storiesOf} from '@storybook/react-native';
 import styled from 'styled-components/native';
 
-import {colors} from 'src/styles/colors';
+import {palette} from 'src/styles/colors';
 import {margins} from 'src/styles/space';
 
 import {Text} from './Text';
@@ -27,8 +27,8 @@ storiesOf('text', module)
       <Text h3>Heading 3</Text>
       <Text h4>Heading 4</Text>
       <EmptyHeightView />
-      <Text h3 color={colors.yellow600}>
-        <Text h2 color={colors.red500}>
+      <Text h3 color={palette.yellow600}>
+        <Text h2 color={palette.red500}>
           This is{' '}
         </Text>
         color text

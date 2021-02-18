@@ -1,4 +1,4 @@
-export const colors = {
+export const palette = {
   black0: '#000000',
   black: '#212121',
   black10: '#190000',
@@ -55,4 +55,9 @@ export const colors = {
   yellow600: '#f9ce00',
 };
 
-export const themeColor = colors.green500;
+export const themeColor = palette.green500;
+
+export const colors = {
+  primary: themeColor,
+  disabled: palette.gray500,
+};
