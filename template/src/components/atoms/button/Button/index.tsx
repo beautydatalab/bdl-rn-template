@@ -27,6 +27,7 @@ interface Props extends TouchableOpacityProps {
 
 const StyledButton = styled.TouchableOpacity`
   border-radius: 8px;
+  padding: ${paddings.short}px ${paddings.medium}px;
 `;
 
 const Title = styled(Text)<{color: string}>`
@@ -67,12 +68,6 @@ export const Button = ({
       ? colors.primary
       : palette.white;
 
-  const defaultButtonStyle = {
-    borderRadius: 8,
-    paddingVertical: paddings.short,
-    paddingHorizontal: paddings.medium,
-  };
-
   const absoluteButtonStyle = {
     backgroundColor: renderBackgroundColor,
     borderColor: renderTitleColor,
@@ -88,7 +83,7 @@ export const Button = ({
 
   return (
     <StyledButton
-      style={[defaultButtonStyle, style, absoluteButtonStyle]}
+      style={[style, absoluteButtonStyle]}
       onPress={handlePress}
       {...rest}>
       {loading ? (

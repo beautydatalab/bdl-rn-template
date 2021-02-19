@@ -19,8 +19,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 1,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -62,8 +64,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 1,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -105,8 +109,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 1,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -148,8 +154,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 1,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -182,8 +190,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 1,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -216,8 +226,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 1,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -259,8 +271,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -302,8 +316,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -345,8 +361,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -388,8 +406,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -422,8 +442,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -456,8 +478,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -499,8 +523,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -542,8 +568,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -585,8 +613,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -619,8 +649,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
@@ -653,8 +685,10 @@ Array [
         "borderRadius": 8,
         "borderWidth": 0,
         "opacity": 1,
-        "paddingHorizontal": 16,
-        "paddingVertical": 8,
+        "paddingBottom": 8,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 8,
       }
     }
   >
