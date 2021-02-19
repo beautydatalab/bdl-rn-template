@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {useCallback, useEffect, useState} from 'react';
 
 import {
   Button,
@@ -16,49 +16,35 @@ type Props = {
   navigation: SettingScreenProps['navigation'];
 };
 
-interface State {
-  buttons: Button[];
-}
+export const SettingDetailScreen = (props: Props) => {
+  const [buttons, setButtons] = useState<Button[]>([]);
 
-class SettingDetailScreen extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
+  useEffect(() => {
+    fetch();
+  }, [fetch]);
 
-    this.state = {buttons: []};
-  }
-  render() {
-    const {buttons} = this.state;
-    return (
-      <Container>
-        <HeaderSection>
-          <MainHeader title="Setting Screen" />
-        </HeaderSection>
-        <CenterContentSection>
-          <HorizontalButtons buttons={buttons} />
-        </CenterContentSection>
-      </Container>
-    );
-  }
+  const fetch = useCallback(() => {
+    const {navigation} = props;
+    setButtons([
+      {
+        title: '< Prev Screen',
+        onPress: () => navigation.goBack(),
+      },
+      {
+        title: 'console.log ??',
+        onPress: () => console.log('??'),
+      },
+    ]);
+  }, [props]);
 
-  public componentDidMount() {
-    this.fetch();
-  }
-
-  private fetch = () => {
-    const {navigation} = this.props;
-    this.setState({
-      buttons: [
-        {
-          title: '< Prev Screen',
-          onPress: () => navigation.goBack(),
-        },
-        {
-          title: 'console.log ??',
-          onPress: () => console.log('??'),
-        },
-      ],
-    });
-  };
-}
-
-export default SettingDetailScreen;
+  return (
+    <Container>
+      <HeaderSection>
+        <MainHeader title="Setting Screen" />
+      </HeaderSection>
+      <CenterContentSection>
+        <HorizontalButtons buttons={buttons} />
+      </CenterContentSection>
+    </Container>
+  );
+};

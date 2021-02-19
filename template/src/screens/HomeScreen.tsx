@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {useEffect, useState} from 'react';
 
 import {MainHeader} from 'src/components/molecules/header/MainHeader';
 import {
@@ -11,56 +11,42 @@ import {
   HeaderSection,
 } from 'src/components/templates/HeaderAndContentTemplate';
 
-type Props = Record<string, never>;
+export const HomeScreen = () => {
+  const [sections, setSections] = useState<Section[]>([]);
 
-interface State {
-  sections: Section[];
-}
+  useEffect(() => {
+    fetch();
+  }, []);
 
-export class HomeScreen extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-
-    this.state = {sections: []};
-  }
-  render() {
-    const {sections} = this.state;
-    return (
-      <Container>
-        <HeaderSection>
-          <MainHeader title="Welcome to Home" />
-        </HeaderSection>
-        <ContentSection>
-          <ContentSections sections={sections} />
-        </ContentSection>
-      </Container>
-    );
-  }
-
-  public componentDidMount() {
-    this.fetch();
-  }
-
-  private fetch = () => {
-    this.setState({
-      sections: [
-        {
-          title: 'Step One',
-          content: '이것은 홈 스크린의 내용 첫 번째 섹션 내용입니다.',
-        },
-        {
-          title: 'Step Two',
-          content: '이것은 홈 스크린의 내용 두 번째 섹션 내용입니다.',
-        },
-        {
-          title: 'Step Three',
-          content: '이것은 홈 스크린의 내용 세 번째 섹션 내용입니다.',
-        },
-        {
-          title: 'Step Four',
-          content: '이것은 홈 스크린의 내용 네 번째 섹션 내용입니다.',
-        },
-      ],
-    });
+  const fetch = () => {
+    setSections([
+      {
+        title: 'Step One',
+        content: '이것은 홈 스크린의 내용 첫 번째 섹션 내용입니다.',
+      },
+      {
+        title: 'Step Two',
+        content: '이것은 홈 스크린의 내용 두 번째 섹션 내용입니다.',
+      },
+      {
+        title: 'Step Three',
+        content: '이것은 홈 스크린의 내용 세 번째 섹션 내용입니다.',
+      },
+      {
+        title: 'Step Four',
+        content: '이것은 홈 스크린의 내용 네 번째 섹션 내용입니다.',
+      },
+    ]);
   };
-}
+
+  return (
+    <Container>
+      <HeaderSection>
+        <MainHeader title="Welcome to Home" />
+      </HeaderSection>
+      <ContentSection>
+        <ContentSections sections={sections} />
+      </ContentSection>
+    </Container>
+  );
+};

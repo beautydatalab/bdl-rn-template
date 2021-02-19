@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {useCallback, useEffect, useState} from 'react';
 
 import {
   Button,
@@ -16,43 +16,31 @@ type Props = {
   navigation: SettingScreenProps['navigation'];
 };
 
-interface State {
-  buttons: Button[];
-}
+export const SettingScreen = (props: Props) => {
+  const [buttons, setButtons] = useState<Button[]>([]);
 
-export class SettingScreen extends Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
+  useEffect(() => {
+    fetch();
+  }, [fetch]);
 
-    this.state = {buttons: []};
-  }
-  render() {
-    const {buttons} = this.state;
-    return (
-      <Container>
-        <HeaderSection>
-          <MainHeader title="SettingScreen" />
-        </HeaderSection>
-        <CenterContentSection>
-          <HorizontalButtons buttons={buttons} />
-        </CenterContentSection>
-      </Container>
-    );
-  }
+  const fetch = useCallback(() => {
+    const {navigation} = props;
+    setButtons([
+      {
+        title: 'Setting Detail',
+        onPress: () => navigation.navigate('SettingDetail'),
+      },
+    ]);
+  }, [props]);
 
-  public componentDidMount() {
-    this.fetch();
-  }
-
-  private fetch = () => {
-    const {navigation} = this.props;
-    this.setState({
-      buttons: [
-        {
-          title: 'Setting Detail',
-          onPress: () => navigation.navigate('SettingDetail'),
-        },
-      ],
-    });
-  };
-}
+  return (
+    <Container>
+      <HeaderSection>
+        <MainHeader title="SettingScreen" />
+      </HeaderSection>
+      <CenterContentSection>
+        <HorizontalButtons buttons={buttons} />
+      </CenterContentSection>
+    </Container>
+  );
+};
