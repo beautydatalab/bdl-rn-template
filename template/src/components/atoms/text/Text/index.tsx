@@ -7,13 +7,13 @@ import styled from 'styled-components/native';
 import {palette} from 'src/styles/colors';
 import {sizes} from 'src/styles/fonts';
 
-interface Props extends TextProps {
+export interface Props extends TextProps {
   h1?: boolean;
   h2?: boolean;
   h3?: boolean;
   h4?: boolean;
   color?: string;
-  children: React.ReactNode;
+  children?: React.ReactNode;
 }
 
 const TextElement = styled.Text`
