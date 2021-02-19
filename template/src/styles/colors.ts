@@ -59,5 +59,6 @@ export const themeColor = palette.green500;
 
 export const colors = {
   primary: themeColor,
+  divider: palette.gray400,
   disabled: palette.gray500,
 };

@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+Array [
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 0,
+            "borderColor": "#d5d5d5",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/images/header-image.jpeg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "borderRadius": 25,
+              "height": 50,
+              "width": 50,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+              "flexBasis": 0,
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+              },
+              Array [
+                Object {},
+              ],
+              Object {
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#212121",
+              },
+            ]
+          }
+        >
+          Image
+        </Text>
+      </View>
+    </View>
+  </View>,
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 0,
+            "borderColor": "#d5d5d5",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/images/header-image.jpeg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "borderRadius": 25,
+              "height": 50,
+              "width": 50,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+              "flexBasis": 0,
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+              },
+              Array [
+                Object {},
+              ],
+              Object {
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#212121",
+              },
+            ]
+          }
+        >
+          Chevron
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#212121",
+            },
+            Array [
+              Object {},
+            ],
+            Object {
+              "fontSize": 24,
+            },
+            Object {
+              "color": "#d5d5d5",
+            },
+          ]
+        }
+      >
+        &gt;
+      </Text>
+    </View>
+  </View>,
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      bottonDivider={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 1,
+            "borderColor": "#d5d5d5",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/images/header-image.jpeg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "borderRadius": 25,
+              "height": 50,
+              "width": 50,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+              "flexBasis": 0,
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+              },
+              Array [
+                Object {},
+              ],
+              Object {
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#212121",
+              },
+            ]
+          }
+        >
+          BottomDivider
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#212121",
+            },
+            Array [
+              Object {},
+            ],
+            Object {
+              "fontSize": 24,
+            },
+            Object {
+              "color": "#d5d5d5",
+            },
+          ]
+        }
+      >
+        &gt;
+      </Text>
+    </View>
+  </View>,
+  <View
+    accessible={true}
+    focusable={false}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      bottonDivider={true}
+      style={
+        Array [
+          Object {
+            "alignItems": "center",
+            "borderBottomWidth": 1,
+            "borderColor": "#d5d5d5",
+            "flexDirection": "row",
+            "justifyContent": "flex-start",
+            "paddingBottom": 16,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 16,
+          },
+        ]
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/images/header-image.jpeg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "borderRadius": 25,
+              "height": 50,
+              "width": 50,
+            },
+          ]
+        }
+      />
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "flex-start",
+              "flexBasis": 0,
+              "flexDirection": "column",
+              "flexGrow": 1,
+              "flexShrink": 1,
+              "justifyContent": "center",
+              "paddingHorizontal": 8,
+            },
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+              },
+              Array [
+                Object {},
+              ],
+              Object {
+                "fontSize": 20,
+              },
+              Object {
+                "color": "#212121",
+              },
+            ]
+          }
+        >
+          Title
+        </Text>
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#212121",
+              },
+              Array [
+                Object {},
+              ],
+              undefined,
+              Object {
+                "color": "#909090",
+              },
+            ]
+          }
+        >
+          SubTitle
+        </Text>
+      </View>
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#212121",
+            },
+            Array [
+              Object {},
+            ],
+            Object {
+              "fontSize": 24,
+            },
+            Object {
+              "color": "#d5d5d5",
+            },
+          ]
+        }
+      >
+        &gt;
+      </Text>
+    </View>
+  </View>,
+]
+`;

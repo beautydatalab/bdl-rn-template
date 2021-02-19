@@ -6,11 +6,13 @@
 function loadStories() {
   require('../src/components/atoms/button/button.stories');
   require('../src/components/atoms/text/text.stories');
+  require('../src/components/molecules/listItem/listItem.stories');
 }
 
 const stories = [
   '../src/components/atoms/button/button.stories',
   '../src/components/atoms/text/text.stories',
+  '../src/components/molecules/listItem/listItem.stories',
 ];
 
 module.exports = {
