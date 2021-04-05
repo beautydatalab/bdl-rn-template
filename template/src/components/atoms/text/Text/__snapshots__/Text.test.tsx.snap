@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+Array [
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+        },
+        undefined,
+        Object {
+          "fontSize": 40,
+        },
+        Object {
+          "color": "#212121",
+        },
+      ]
+    }
+  >
+    Heading 1
+  </Text>,
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+        },
+        undefined,
+        Object {
+          "fontSize": 32,
+        },
+        Object {
+          "color": "#212121",
+        },
+      ]
+    }
+  >
+    Heading 2
+  </Text>,
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+        },
+        undefined,
+        Object {
+          "fontSize": 24,
+        },
+        Object {
+          "color": "#212121",
+        },
+      ]
+    }
+  >
+    Heading 3
+  </Text>,
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+        },
+        undefined,
+        Object {
+          "fontSize": 20,
+        },
+        Object {
+          "color": "#212121",
+        },
+      ]
+    }
+  >
+    Heading 4
+  </Text>,
+  <Text
+    style={
+      Array [
+        Object {
+          "color": "#212121",
+        },
+        undefined,
+        Object {
+          "fontSize": 24,
+        },
+        Object {
+          "color": "#f9ce00",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        Array [
+          Object {
+            "color": "#212121",
+          },
+          undefined,
+          Object {
+            "fontSize": 32,
+          },
+          Object {
+            "color": "#e9494e",
+          },
+        ]
+      }
+    >
+      This is
+       
+    </Text>
+    color text
+  </Text>,
+]
+`;

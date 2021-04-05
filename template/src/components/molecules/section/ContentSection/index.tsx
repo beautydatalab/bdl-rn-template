@@ -4,8 +4,7 @@ import {StyleProp, ViewStyle} from 'react-native';
 
 import styled from 'styled-components/native';
 
-import {SectionContent} from 'src/components/atoms/text/SectionContent';
-import {SectionTitle} from 'src/components/atoms/text/SectionTitle';
+import {Text} from 'src/components/atoms/text/Text';
 import {margins} from 'src/styles/space';
 
 interface Props {
@@ -16,15 +15,15 @@ interface Props {
 
 const Container = styled.View``;
 
-const Title = styled(SectionTitle)`
+const Title = styled(Text)`
   margin-bottom: ${margins.short}px;
 `;
 
-const Content = styled(SectionContent)``;
+const Content = styled(Text)``;
 
 export const ContentSection = ({style, title, content}: Props) => (
   <Container style={style}>
-    <Title>{title}</Title>
-    <Content>{content}</Content>
+    <Title h3>{title}</Title>
+    <Content h4>{content}</Content>
   </Container>
 );

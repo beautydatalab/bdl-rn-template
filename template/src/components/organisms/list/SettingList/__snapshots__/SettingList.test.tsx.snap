@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "description": "현재 로그인이 되어있지 않아요. 로그인해서 더 많은 서비스를 누려보아요",
+        "title": "로그인",
+      },
+      Object {
+        "description": "알림 설정을 통해서 앱의 알림을 통제할 수 있습니다",
+        "title": "알림 설정",
+      },
+      Object {
+        "description": "앱이 마음에 안드세요? 그러면 테마를 바꿔서 기분을 내보는 것은 어떠세요?",
+        "title": "테마 변경",
+      },
+      Object {
+        "description": "너무 아쉽지만 ㅠ...  보내줄게요",
+        "title": "회원탈퇴",
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEnabled={false}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  style={
+    Array [
+      Object {
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          bottonDivider={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "borderColor": "#d5d5d5",
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                  },
+                  Array [
+                    Object {},
+                    Object {
+                      "marginBottom": 4,
+                    },
+                  ],
+                  Object {
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#212121",
+                  },
+                ]
+              }
+            >
+              로그인
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                  },
+                  Array [
+                    Object {},
+                  ],
+                  undefined,
+                  Object {
+                    "color": "#909090",
+                  },
+                ]
+              }
+            >
+              현재 로그인이 되어있지 않아요. 로그인해서 더 많은 서비스를 누려보아요
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                },
+                Array [
+                  Object {},
+                ],
+                Object {
+                  "fontSize": 24,
+                },
+                Object {
+                  "color": "#d5d5d5",
+                },
+              ]
+            }
+          >
+            &gt;
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          bottonDivider={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "borderColor": "#d5d5d5",
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                  },
+                  Array [
+                    Object {},
+                    Object {
+                      "marginBottom": 4,
+                    },
+                  ],
+                  Object {
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#212121",
+                  },
+                ]
+              }
+            >
+              알림 설정
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                  },
+                  Array [
+                    Object {},
+                  ],
+                  undefined,
+                  Object {
+                    "color": "#909090",
+                  },
+                ]
+              }
+            >
+              알림 설정을 통해서 앱의 알림을 통제할 수 있습니다
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                },
+                Array [
+                  Object {},
+                ],
+                Object {
+                  "fontSize": 24,
+                },
+                Object {
+                  "color": "#d5d5d5",
+                },
+              ]
+            }
+          >
+            &gt;
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          bottonDivider={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "borderColor": "#d5d5d5",
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                  },
+                  Array [
+                    Object {},
+                    Object {
+                      "marginBottom": 4,
+                    },
+                  ],
+                  Object {
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#212121",
+                  },
+                ]
+              }
+            >
+              테마 변경
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                  },
+                  Array [
+                    Object {},
+                  ],
+                  undefined,
+                  Object {
+                    "color": "#909090",
+                  },
+                ]
+              }
+            >
+              앱이 마음에 안드세요? 그러면 테마를 바꿔서 기분을 내보는 것은 어떠세요?
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                },
+                Array [
+                  Object {},
+                ],
+                Object {
+                  "fontSize": 24,
+                },
+                Object {
+                  "color": "#d5d5d5",
+                },
+              ]
+            }
+          >
+            &gt;
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          bottonDivider={true}
+          style={
+            Array [
+              Object {
+                "alignItems": "center",
+                "borderBottomWidth": 1,
+                "borderColor": "#d5d5d5",
+                "flexDirection": "row",
+                "justifyContent": "flex-start",
+                "paddingBottom": 16,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 16,
+              },
+            ]
+          }
+        >
+          <View
+            style={
+              Array [
+                Object {
+                  "alignItems": "flex-start",
+                  "flexBasis": 0,
+                  "flexDirection": "column",
+                  "flexGrow": 1,
+                  "flexShrink": 1,
+                  "justifyContent": "center",
+                  "paddingHorizontal": 8,
+                },
+              ]
+            }
+          >
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                  },
+                  Array [
+                    Object {},
+                    Object {
+                      "marginBottom": 4,
+                    },
+                  ],
+                  Object {
+                    "fontSize": 20,
+                  },
+                  Object {
+                    "color": "#212121",
+                  },
+                ]
+              }
+            >
+              회원탈퇴
+            </Text>
+            <Text
+              style={
+                Array [
+                  Object {
+                    "color": "#212121",
+                  },
+                  Array [
+                    Object {},
+                  ],
+                  undefined,
+                  Object {
+                    "color": "#909090",
+                  },
+                ]
+              }
+            >
+              너무 아쉽지만 ㅠ...  보내줄게요
+            </Text>
+          </View>
+          <Text
+            style={
+              Array [
+                Object {
+                  "color": "#212121",
+                },
+                Array [
+                  Object {},
+                ],
+                Object {
+                  "fontSize": 24,
+                },
+                Object {
+                  "color": "#d5d5d5",
+                },
+              ]
+            }
+          >
+            &gt;
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

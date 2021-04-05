@@ -7,7 +7,7 @@ import {
   HorizontalButtons,
 } from 'src/components/molecules/buttonGroup/HorizontalButtonGroup';
 import {MainHeader} from 'src/components/molecules/header/MainHeader';
-import {colors} from 'src/styles/colors';
+import {palette} from 'src/styles/colors';
 import {paddings} from 'src/styles/space';
 
 interface Props {
@@ -27,7 +27,7 @@ export const ContentSection = styled.View`
   padding-vertical: ${paddings.medium}px;
   width: 100%;
   height: 100%;
-  background: ${colors.white};
+  background: ${palette.white};
 `;
 
 export const CenterContentSection = styled(ContentSection)`

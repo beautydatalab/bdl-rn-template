@@ -4,9 +4,9 @@ import {Dimensions, StyleProp, ViewStyle} from 'react-native';
 
 import styled from 'styled-components/native';
 
-import {BigTitle} from 'src/components/atoms/text/BigTitle';
+import {Text} from 'src/components/atoms/text/Text';
 import {images} from 'src/images';
-import {colors} from 'src/styles/colors';
+import {palette} from 'src/styles/colors';
 
 interface Props {
   style?: StyleProp<ViewStyle>;
@@ -18,13 +18,15 @@ const Image = styled.ImageBackground`
   width: ${Dimensions.get('window').width}px;
 `;
 
-const Title = styled(BigTitle)`
+const Title = styled(Text)`
   margin-top: 150px;
-  color: ${colors.white};
+  color: ${palette.white};
 `;
 
 export const MainHeader = ({style, title}: Props) => (
   <Image style={style} source={images.header}>
-    <Title>{title}</Title>
+    <Title h1 color={palette.white}>
+      {title}
+    </Title>
   </Image>
 );
